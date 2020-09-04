@@ -1,0 +1,69 @@
+aula 2
+backend
+Comecamos com comandos basicos linux
+mkdir, cd, ls
+iniciando projeto:
+yarn(ou npm) init -y
+serve pra instalar as bibliotecas mais famosas
+code .(vs code)
+yarn add express (npm install express)
+
+rota -> endereco depois da aplicacao
+www.site.com/route
+aplicacao = site, rota = route
+
+extensao json viewer pra navegador
+
+nodemon (biblioteca para atualizar o node sem fechar o servidor)
+
+yarn add nodemon -D(-D para desenvolvimento)
+
+node index.js
+yarn nodemon index.js
+podemos alterar dentro do package.json
+"scripts": {
+	"dev": "nodemon index.js"
+},(escrevemos yarn dev no terminal e ele substitui nodemon index.js
+
+
+metodos para resquisicao
+get post put delete
+post(cria)C
+get(listagem)R
+put(atualiza)U
+delete(apaga)D
+
+insomnia para requisicoes(https://insomnia.rest/download/)
+ou postman
+
+Tipos de parametros:
+
+Query params: parametros de busca por exemplo, muito utilizados em get
+req.query(filtros, ordenacao, paginacao...)
+
+Route Params: para put ou delete
+exemplo: users/1
+identifica um recurso na alteracao ou remocao
+request.params
+
+Body
+request.boddy
+dados de criacao e alteracao de um objeto 
+{
+"name": "joao",
+"email": "jp-dealmeida@hotmail.com"
+}
+
+//////////////////////////////
+yarn add axios(consulta outras apis)
+
+
+mongodb compass comunity serve pra ver o banco de dados
+
+
+controller tem 5 funcoes
+index mostra todos
+show mostra 1
+store criar
+update atualizar
+destroy deletar

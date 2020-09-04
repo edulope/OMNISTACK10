@@ -1,0 +1,33 @@
+aula 3
+SPA single page application
+o servidor envia o html, css, js, isso fica no browser
+
+yarn create react-app web
+
+index.html e o arquivo inicial da aplicacao
+index..js e o arquivo principal
+yarn start
+
+importamos react em todo arquivo com html
+reactdom permite o react se comunicar com o html da arvore de elementos
+
+conceitos de react
+
+Componente:
+App() {} (funcoes que retornam html, css, js, etc...)
+criamos componentes pra isolar pedacos da aplicacao ou para reciclar codigo
+exemplo: feed do facebook
+
+Estado:
+sao os estados de variaveis, eles nao costumam ser setados, e sim atualizados
+
+Propriedade:
+titulos, ids, tags de html, que identificam os componentes, informacoes que um componente pai passa pra um componente filho, como parametros de uma funcao
+
+for e escrito como htmlFor
+class e escrito como ClassName
+
+backend -> yarn add cors
+
+front -> yarn add axios
+

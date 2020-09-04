@@ -1,0 +1,6 @@
+aula 5
+instalamos websocket no backend da aplicacao
+
+yarn add socket.io
+
+envia responses sem precisar de requisicoes

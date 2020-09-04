@@ -1,0 +1,28 @@
+aula 4
+usaremos react native para componentes nativos e Expo
+Expo nem sempre e eficiente(exemplo app com bluetooth)
+
+yarn global add expo-cli
+configurar yarn global path(export PATH="$(yarn global bin):$PATH")
+
+expo init nome
+
+yarn start
+
+tags no react native sao mais objetivas, sem classes e ids
+
+views tem estilizacao
+
+yarn add react-navigation(instalando lib de navegacao do expo https://reactnavigation.org/docs/en/getting-started.html)
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+
+yarn add react-navigation-stack @react-native-community/masked-view
+
+yarn add react-native-maps@0.26.1
+
+expo install expo-location
+
+expo install react-native-webview
+
+yarn add axios
